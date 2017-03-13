@@ -87,7 +87,8 @@ func fetchAppName() string {
 	if appName == "" {
 		return "test-app"
 	}
-	return appName
+//	return appName
+	return "Innovatos Plaza 2017"
 }
 
 func getServerPorts() []string {
