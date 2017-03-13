@@ -83,8 +83,6 @@ func main() {
 }
 
 func fetchAppName() string {
-	return "Innovatos Plaza 2017"
-
 	appName := os.Getenv("APP_NAME")
 	if appName == "" {
 		return "test-app"
