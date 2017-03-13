@@ -83,12 +83,13 @@ func main() {
 }
 
 func fetchAppName() string {
+	return "Innovatos Plaza 2017"
+
 	appName := os.Getenv("APP_NAME")
 	if appName == "" {
 		return "test-app"
 	}
-//	return appName
-	return "Innovatos Plaza 2017"
+	return appName
 }
 
 func getServerPorts() []string {
