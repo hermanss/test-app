@@ -16,7 +16,7 @@ func (p *Hello) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	index, _ := helpers.FetchIndex()
 
 	styledTemplate.Execute(w, Body{Body: fmt.Sprintf(`
-<div class="hello">BESTSELLER DEMO</div>
+<div class="hello">Oracle and Puppy!!</div>
 
 <div class="my-index">My Index Is</div>
 
